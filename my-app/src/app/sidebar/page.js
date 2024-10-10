@@ -120,7 +120,7 @@ export default function SidebarComponent() {
           </Sidebar.Collapse>
 
           <Sidebar.Item
-            href="/#"
+            href="/"
             icon={LogoutIcon}
             className="text-gray-600 hover:bg-gray-100"
           >
