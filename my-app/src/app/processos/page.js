@@ -48,8 +48,8 @@ function ProcessosPage() {
 
                 {/* Seção de Comunicação */}
                 <h2 className="text-lg font-bold mb-4">Comunicação</h2>
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mb-8">
-                  {comunicacao.map((item, index) => (
+                <div className="grid gap-4 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {comunicacao.map((item, index) => (
                     <Link key={index} href={`/processos/${item.name.toLowerCase().replace(/ /g, '-')}`}>
                       <Card className="cursor-pointer hover:shadow-lg transform hover:scale-105 transition-all duration-200 bg-white p-3 rounded-lg shadow-md">
                         <item.icon className="w-6 h-6 mx-auto text-blue-500" />
@@ -61,8 +61,8 @@ function ProcessosPage() {
 
                 {/* Seção de Vasilhames */}
                 <h2 className="text-lg font-bold mb-4">Vasilhames</h2>
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mb-8">
-                  {vasilhames.map((item, index) => (
+                <div className="grid gap-4 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {vasilhames.map((item, index) => (
                     <Link key={index} href={`/processos/${item.name.toLowerCase().replace(/ /g, '-')}`}>
                       <Card className="cursor-pointer hover:shadow-lg transform hover:scale-105 transition-all duration-200 bg-white p-3 rounded-lg shadow-md">
                         <item.icon className="w-6 h-6 mx-auto text-blue-500" />
@@ -74,8 +74,8 @@ function ProcessosPage() {
 
                 {/* Seção de Processamentos */}
                 <h2 className="text-lg font-bold mb-4">Processamentos</h2>
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mb-8">
-                  {processamentos.map((item, index) => (
+                <div className="grid gap-4 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {processamentos.map((item, index) => (
                     <Link key={index} href={`/processos/${item.name.toLowerCase().replace(/ /g, '-')}`}>
                       <Card className="cursor-pointer hover:shadow-lg transform hover:scale-105 transition-all duration-200 bg-white p-3 rounded-lg shadow-md">
                         <item.icon className="w-6 h-6 mx-auto text-blue-500" />
@@ -87,8 +87,8 @@ function ProcessosPage() {
 
                 {/* Seção de Pedidos */}
                 <h2 className="text-lg font-bold mb-4">Pedidos</h2>
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 mb-8">
-                  {pedidos.map((item, index) => (
+                <div className="grid gap-4 mb-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                {pedidos.map((item, index) => (
                     <Link key={index} href={`/processos/${item.name.toLowerCase().replace(/ /g, '-')}`}>
                       <Card className="cursor-pointer hover:shadow-lg transform hover:scale-105 transition-all duration-200 bg-white p-3 rounded-lg shadow-md">
                         <item.icon className="w-6 h-6 mx-auto text-blue-500" />
@@ -97,7 +97,6 @@ function ProcessosPage() {
                     </Link>
                   ))}
                 </div>
-
               </div>
             </div>
           </div>
