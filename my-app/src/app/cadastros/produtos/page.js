@@ -68,8 +68,7 @@ export default function ProdutosPage() {
                 <Table hoverable className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
                   <Table.Head>
                     <Table.HeadCell className="min-w-[40px]">
-                      {/* <SearchIcon className="w-5 h-5 text-gray-600 cursor-pointer" title="Filtrar" /> */}
-                    </Table.HeadCell>
+...                    </Table.HeadCell>
                     <Table.HeadCell className="min-w-[120px]">Código</Table.HeadCell>
                     <Table.HeadCell className="min-w-[80px]">Emp</Table.HeadCell>
                     <Table.HeadCell className="min-w-[200px]">Descrição</Table.HeadCell>
